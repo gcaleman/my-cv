@@ -1,5 +1,4 @@
 import { React, useState } from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 export const Navbar = () => {
@@ -18,37 +17,37 @@ export const Navbar = () => {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <a className="navbar-logo" href="/" onClick={closeMobileMenu}>
                         GMC <img className="logo-img" src="/logo-dev.png" alt="" />
-                    </Link>
+                    </a>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu '}>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                            <a className="nav-links" href="#home" onClick={closeMobileMenu}>
                                 Home
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/about-me" className="nav-links" onClick={closeMobileMenu}>
+                            <a className="nav-links" href="#about" onClick={closeMobileMenu}>
                                 About Me
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
+                            <a className="nav-links" href="#projects" onClick={closeMobileMenu}>
                                 Projects
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/education" className="nav-links" onClick={closeMobileMenu}>
+                            <a className="nav-links" href="#education" onClick={closeMobileMenu}>
                                 Education
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/education" className="nav-links" onClick={closeMobileMenu}>
+                            <a className="nav-links" href="#contact" onClick={closeMobileMenu}>
                                 Contact
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>

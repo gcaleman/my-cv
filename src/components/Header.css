@@ -1,0 +1,29 @@
+.header-wraper {
+    position: relative;
+    background-image: url(developer-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-info>h2 {
+    color: rgb(31, 31, 31);
+    text-transform: uppercase;
+}
+
+.typed-text {
+    color: rgb(252, 252, 252);
+}

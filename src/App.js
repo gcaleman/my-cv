@@ -1,13 +1,34 @@
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter as Router} from 'react-router-dom';
+import "./App.css";
 import { Navbar } from './components/Navbar';
+import { Header } from './components/Header';
+import Particles from 'react-particles-js';
 
 function App() {
   return (
-      <Router>
-        <Navbar />
-      </Router>
+    <>
+      <Particles
+        params={{
+          "particles": {
+            "number": {
+              "value": 60
+            },
+            "size": {
+              "value": 4
+            }
+          },
+          "interactivity": {
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "repulse"
+              }
+            }
+          }
+        }} />
+      <Header />
+      <Navbar />
+    </>
   );
 }
 
