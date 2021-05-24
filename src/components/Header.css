@@ -3,7 +3,20 @@
     background-image: url(developer-img.jpg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: solid 0.4rem rgb(65, 62, 62);
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(profile.jpeg);
+    background-size: cover;
+    z-index: 1;
 }
 
 .main-info {
@@ -19,10 +32,13 @@
     text-align: center;
 }
 
-.main-info>h2 {
-    color: rgb(31, 31, 31);
+.main-info>h3,
+.main-info>h4 {
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
+    line-height: 1.7rem;
 }
+
 
 .typed-text {
     color: rgb(252, 252, 252);

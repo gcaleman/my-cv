@@ -6,7 +6,9 @@ export const Header = () => {
     return (
         <div className="header-wraper">
             <div className="main-info">
-                <h2>Frontend </h2> <h4>&</h4> <h2>Java Developer</h2>
+                <div className="profile-img"></div>
+
+                <h3>Frontend </h3> <h4>&</h4> <h3>Java Developer</h3>
                 <Typed
                     className="typed-text"
                     strings={["React", "Angular", "HTML", "CSS", "JavaScript", "Java", "Spring Boot", "MySQL"]}
