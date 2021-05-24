@@ -25,7 +25,7 @@ export const Navbar = () => {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu '}>
                         <li className="nav-item">
-                            <a className="nav-links" href="#home" onClick={closeMobileMenu}>
+                            <a className="nav-links" href="#" onClick={closeMobileMenu}>
                                 Home
                             </a>
                         </li>

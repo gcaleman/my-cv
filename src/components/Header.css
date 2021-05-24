@@ -1,6 +1,6 @@
 .header-wraper {
     position: relative;
-    background-image: url(developer-img.jpg);
+    background-image: url(/src/components/images/developer-img.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -8,28 +8,55 @@
 
 .profile-img {
     border-radius: 50%;
-    border: solid 0.4rem rgb(65, 62, 62);
+    border: solid 0.4rem rgb(178, 224, 255);
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-image: url(profile.jpeg);
+    background-image: url(/src/components/images/profile.jpeg);
     background-size: cover;
     z-index: 1;
 }
 
+.profile-img:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-out;
+}
+
 .main-info {
     display: flex;
-    position: absolute;
-    top: 0;
+    position: relative;
     left: 0;
-    right: 0;
-    bottom: 0;
+    top: 80px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+.about-info {
+    display: flex;
+    position: relative;
+    left: -10%;
+    margin-top: 120px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.2rem;
+    border-left: solid 0.2rem rgb(204, 204, 204);
+}
+
+@media(max-width:996px) {
+    .about-info {
+        display: flex;
+        position: relative;
+        left: 0;
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about-info>p {
+    color: rgb(0, 0, 0);
 }
 
 .main-info>h3,
@@ -41,5 +68,39 @@
 
 
 .typed-text {
-    color: rgb(252, 252, 252);
+    color: rgb(255, 255, 255);
+}
+
+.typed-about {
+    color: rgb(255, 255, 255);
+}
+
+.scroll-btn {
+    bottom: 110px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: solid 2px rgb(255, 255, 255);
+    padding: 9px 9px 12px;
+    border-radius: 30px;
+}
+
+.scroll-bar span {
+    border: solid 2px rgb(255, 255, 255);
+    font-size: 10px;
+    border-radius: 30px;
+}
+
+.scroll-bar {
+    animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
 }

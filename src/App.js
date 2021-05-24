@@ -1,8 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Particles from 'react-particles-js';
 import { Navbar } from './components/Navbar';
 import { Header } from './components/Header';
-import Particles from 'react-particles-js';
+import { AboutMe } from "./components/AboutMe";
+import { Education } from "./components/Education";
+import { Projects } from "./components/Projects";
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -11,10 +15,10 @@ function App() {
         params={{
           "particles": {
             "number": {
-              "value": 60
+              "value": 30
             },
             "size": {
-              "value": 4
+              "value": 3
             }
           },
           "interactivity": {
@@ -28,6 +32,10 @@ function App() {
         }} />
       <Header />
       <Navbar />
+      <AboutMe />
+      <Education />
+      <Projects />
+      <Footer />
     </>
   );
 }
