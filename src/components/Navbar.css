@@ -24,19 +24,20 @@
 .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-bottom: 13px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     display: flex;
     align-items: center;
 }
 
 .logo-img {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
-    height: 2.1875rem;
-    width: 2.8125rem;
+    margin-left: 0.3rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.5rem;
+    height: 1.8rem;
+    width: 2.3125rem;
 }
 
 .nav-menu {
@@ -143,6 +144,7 @@
         position: absolute;
         top: 0;
         right: 0;
+        bottom: 3rem;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;

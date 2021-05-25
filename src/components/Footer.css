@@ -1,0 +1,79 @@
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/src/components/images/background-opacity.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+.footer-container .row {
+    padding: 30px 0;
+    font-size: large;
+}
+
+.footer-container .col>i {
+    padding: 10px;
+    font-size: 26px;
+}
+
+.footer-container .btn {
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+.footer-container .btn:focus {
+    box-shadow: none !important;
+}
+
+.footer-container .btn:hover {
+    border: 1px solid black !important;
+    background: black !important;
+    transition: 0.2s;
+}
+
+.footer-container .btn>i {
+    margin-right: 10px;
+}
+
+.footer-container {
+    color: #fff;
+}
+
+.contact-media {
+    background: rgba(0, 0, 0, 0.712);
+    height: 50px;
+    margin-top: 50px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.contact-media .row .col .fa-linkedin {
+    margin-right: -350px !important;
+}
+
+.contact-media .row .col .fa-github {
+    margin-left: -350px !important;
+}
+
+.contact-media .row .col>i {
+    font-size: 22px;
+}
+
+.contact-media .row .col>i:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    border: none;
+}
+
+@media(max-width: 996px) {
+    .contact-media .row .col .fa-linkedin {
+        margin-right: 50px !important;
+    }
+
+    .contact-media .row .col .fa-github {
+        margin-left: 50px !important;
+    }
+}
