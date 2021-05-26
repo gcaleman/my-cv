@@ -1,6 +1,4 @@
 .header-wraper {
-    /* position: relative; */
-    /* background-image: url(/src/components/images/developer-img.jpg); */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-attachment: fixed;
     background-size: cover;
@@ -24,7 +22,7 @@ video {
     height: 230px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-image: url(/src/components/images/profile.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/src/components/images/profile.jpeg);
     background-size: cover;
     z-index: 1;
 }

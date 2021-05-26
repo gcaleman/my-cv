@@ -1,0 +1,45 @@
+.aboutMe {
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.about-container {
+    height: 70vh;
+}
+
+.about-container .col-logo {
+    background: url(/src/components/images/about-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-left: -20px;
+}
+
+.about-container .col-border {
+    border-left: 0.1rem solid black;
+}
+
+.about-container .col-border>p {
+    color: rgb(54, 54, 54);
+    margin-left: 40px;
+    line-height: 2rem;
+}
+
+.about-container .col-border>h1 {
+    margin-left: 35px;
+}
+
+.about-container .col-border>p>span {
+    color: rgb(190, 0, 0);
+}
+
+.about-container .col-border>p>span:hover {
+    font-size: larger;
+    transition: 0.3s;
+}
+
+@media(max-width:1010px) {
+    .about-container {
+        height: auto;
+    }
+}

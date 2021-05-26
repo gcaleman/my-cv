@@ -51,11 +51,6 @@
     margin-right: 2rem;
 }
 
-.nav-menu>li>a.active,
-.nav-menu>li>a:focus {
-    border-bottom: 4px solid #fff;
-    color: #fff;
-}
 
 .nav-item {
     height: 80px;

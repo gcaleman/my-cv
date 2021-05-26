@@ -1,0 +1,26 @@
+.education {
+    padding: 40px;
+}
+
+.education-container {
+    height: 70vh;
+}
+
+.education-container .col-logo {
+    background: url(/src/components/images/education-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-left: -20px;
+}
+
+.education-container .col-border {
+    border-right: 0.1rem solid black;
+}
+
+@media(max-width:1010px){
+    .education-container {
+        height: auto;
+        margin-top: -10px;
+    }
+}
