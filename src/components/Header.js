@@ -12,7 +12,7 @@ export const Header = () => {
 
     return (
         <div className="header-wraper">
-            {/* <video src='/videos/milkway.mp4' autoPlay loop muted /> */}
+            <video src='/videos/milkway.mp4' autoPlay loop muted />
             <Container>
                 <Row>
                     <Col md={1}></Col>

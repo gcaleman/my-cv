@@ -22,23 +22,23 @@ export const Projects = () => {
                         </ul>
                     </Col>
                     <Col md={6} className="app-info">
-                                <h4 >About the application</h4>
-                                <p>
-                                    <span>Development:</span>
-                                    <br></br>
-                                - Frontend: <span>React.js</span>
-                                    <br></br>
-                                - Backend: <span>Java</span> + <span>Spring boot</span> (Spring Web, Spring Data JPA, Spring
+                        <h4 >About the application</h4>
+                        <p>
+                            <b>Development:</b>
+                            <br></br>
+                                - Frontend: <b>React.js</b>
+                            <br></br>
+                                - Backend: <b>Java</b> + <b>Spring boot</b> (Spring Web, Spring Data JPA, Spring
                                 HSQLDB, Spring Batch)
                                 <br></br>
-                                    <br></br>
-                                    <span>Deployment:</span>
-                                    <br></br>
+                            <br></br>
+                            <b>Deployment:</b>
+                            <br></br>
                                 - Frontend: AWS Amplify
                                 <br></br>
                                 - Backend: AWS Elastic Beanstalk
                             </p>
-                                <a href="https://github.com/gcaleman/covid-europe-dashboard"><i className="fab fa-github" />Github repository</a>
+                        <a href="https://github.com/gcaleman/covid-europe-dashboard"><i className="fab fa-github" />Github repository</a>
                     </Col>
                 </Row>
                 <Row >
@@ -55,15 +55,15 @@ export const Projects = () => {
                     <Col md={6} className="app-info">
                         <h4>About the application</h4>
                         <p>
-                            <span>Development:</span>
+                            <b>Development:</b>
                             <br></br>
-                                - Frontend: <span>React.js</span>
+                                - Frontend: <b>React.js</b>
                             <br></br>
-                                - Backend: <span>Java</span> + <span>Spring boot</span> (Spring Web, Spring Data JPA, Spring
+                                - Backend: <b>Java</b> + <b>Spring boot</b> (Spring Web, Spring Data JPA, Spring
                                 HSQLDB, Spring Batch)
                                 <br></br>
                             <br></br>
-                            <span>Deployment:</span>
+                            <b>Deployment:</b>
                             <br></br>
                                 - Frontend: AWS Amplify
                                 <br></br>
