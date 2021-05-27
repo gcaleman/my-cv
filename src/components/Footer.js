@@ -13,7 +13,7 @@ export const Footer = () => {
     }
 
     const downloadFile = () => {
-        fetch('http://localhost:3000/files/Guilherme_Caleman_CV.pdf', {
+        fetch('https://gcaleman.clmn.link/files/Guilherme_Caleman_CV.pdf', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/pdf',
