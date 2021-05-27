@@ -46,6 +46,7 @@ video {
     position: relative;
     left: -10%;
     margin-top: 180px;
+    padding: 10px;
     flex-direction: column;
     align-items: center;
     border-radius: 0.1rem;
@@ -77,7 +78,7 @@ video {
 }
 
 .scroll-btn {
-    bottom: 20px;
+    bottom: 15px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -87,7 +88,7 @@ video {
     z-index: 2;
 }
 
-.scroll-bar span {
+.scroll-bar .btn>span {
     border: solid 2px rgb(255, 255, 255);
     font-size: 8px;
     border-radius: 10px;
@@ -115,6 +116,45 @@ video {
         margin-top: 100px;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media(max-width: 360px) {
+    .typed-about {
+        align-content: center;
+        color: rgb(255, 255, 255);
+        font-size: large;
+        line-height: 2rem;
+    }
+
+    .main-info>h3,
+    .main-info>h4 {
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.4rem;
+    }
+
+    .main-info {
+        padding: 15px;
+        display: flex;
+        position: relative;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-info {
+        display: flex;
+        position: relative;
+        left: 0;
+        margin-top: -10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-img:hover {
+        transform: none;
     }
 }
 

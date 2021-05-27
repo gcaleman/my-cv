@@ -21,7 +21,6 @@ export const Footer = () => {
         })
             .then((response) => response.blob())
             .then((blob) => {
-                // Create blob link to download
                 const url = window.URL.createObjectURL(
                     new Blob([blob]),
                 );
@@ -32,13 +31,10 @@ export const Footer = () => {
                     `Guilherme_Caleman_CV.pdf`,
                 );
 
-                // Append to html link element page
                 document.body.appendChild(link);
 
-                // Start download
                 link.click();
 
-                // Clean up and remove the link
                 link.parentNode.removeChild(link);
             });
     }
@@ -50,7 +46,7 @@ export const Footer = () => {
                 <Row className="row">
                     <Col md={6} className="col">
                         <i className="fas fa-mobile-alt"></i>
-                        <p>+353833799709</p>
+                        <p>+353 83 379-9709</p>
                     </Col>
                     <Col md={6} className="col">
                         <i className="fas fa-at"></i>
