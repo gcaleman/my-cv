@@ -12,32 +12,32 @@ export const Footer = () => {
         window.open("https://github.com/gcaleman");
     }
 
-    const downloadFile = () => {
-        fetch('https://gcaleman.clmn.link/files/Guilherme_Caleman_CV.pdf', {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/pdf',
-            },
-        })
-            .then((response) => response.blob())
-            .then((blob) => {
-                const url = window.URL.createObjectURL(
-                    new Blob([blob]),
-                );
-                const link = document.createElement('a');
-                link.href = url;
-                link.setAttribute(
-                    'download',
-                    `Guilherme_Caleman_CV.pdf`,
-                );
+    // const downloadFile = () => {
+    //     fetch('https://gcaleman.clmn.link/files/Guilherme_Caleman_CV.pdf', {
+    //         method: 'GET',
+    //         headers: {
+    //             'Content-Type': 'application/pdf',
+    //         },
+    //     })
+    //         .then((response) => response.blob())
+    //         .then((blob) => {
+    //             const url = window.URL.createObjectURL(
+    //                 new Blob([blob]),
+    //             );
+    //             const link = document.createElement('a');
+    //             link.href = url;
+    //             link.setAttribute(
+    //                 'download',
+    //                 `Guilherme_Caleman_CV.pdf`,
+    //             );
 
-                document.body.appendChild(link);
+    //             document.body.appendChild(link);
 
-                link.click();
+    //             link.click();
 
-                link.parentNode.removeChild(link);
-            });
-    }
+    //             link.parentNode.removeChild(link);
+    //         });
+    // }
 
     return (
         <div id="contact" className="footer">
@@ -53,8 +53,8 @@ export const Footer = () => {
                         <p>guilherme.caleman@gmail.com</p>
                     </Col>
                 </Row>
-                <button type="button" className="btn btn-dark" onClick={downloadFile}><i className="fas fa-file-download"></i>Resume</button>
-                <p style={{ fontSize: 'small' }}>Download my CV now</p>
+                {/* <button type="button" className="btn btn-dark" onClick={downloadFile}><i className="fas fa-file-download"></i>Resume</button>
+                <p style={{ fontSize: 'small' }}>Download my CV now</p> */}
             </Container>
             <div className="contact-media text-center">
                 <Container>
