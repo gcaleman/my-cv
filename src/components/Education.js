@@ -7,7 +7,7 @@ export const Education = () => {
         <div id="education" className="education">
             <Container className="education-container">
                 <Row>
-                    <Col md={8} className="col-border">
+                    <Col className="col-border">
                         <h3 className="text-center">My Studies</h3>
                         <ul className="education-timeline">
                             <li>
@@ -52,9 +52,9 @@ export const Education = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col md={4} className="col-logo">
+                    {/* <Col md={4} className="col-logo">
 
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
             <hr></hr>
