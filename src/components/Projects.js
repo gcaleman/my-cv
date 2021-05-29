@@ -73,7 +73,6 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <hr></hr>
         </div>
     )
 }

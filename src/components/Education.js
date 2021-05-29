@@ -8,7 +8,7 @@ export const Education = () => {
             <Container className="education-container">
                 <Row>
                     <Col className="col-border">
-                        <h3 className="text-center">My Studies</h3>
+                        <h1 className="text-center">My Studies</h1>
                         <ul className="education-timeline">
                             <li>
                                 <h4><span>10/2020 - </span> Science in Computing</h4>
