@@ -17,7 +17,7 @@ export const Navbar = () => {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <a className="navbar-logo" href="/" onClick={closeMobileMenu}>
+                    <a className="navbar-logo" href="/my-cv" onClick={closeMobileMenu}>
                         GMC <img className="logo-img" src="https://gcaleman.github.io/my-cv/logo-dev.png" alt="" />
                     </a>
                     <div className="menu-icon" onClick={handleClick}>
