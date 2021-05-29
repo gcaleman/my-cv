@@ -23,6 +23,7 @@ h1 {
 
 .app-info {
   padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 
@@ -45,16 +46,17 @@ h1 {
   font-weight: bold;
 }
 
-.app-info>a {
+.app-info a {
   color: black;
   text-decoration: underline;
   font-weight: bold;
-  bottom: 40px;
+  padding-top: 20px !important;
 }
 
 .app-info>a>i {
   margin-right: 0.3rem;
   font-size: large;
+  padding-top: 20px !important;
 }
 
 .cards__item {
