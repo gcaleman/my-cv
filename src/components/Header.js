@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import Typed from 'react-typed';
-import { Cotainer, Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 
 export const Header = () => {
 
@@ -12,7 +12,7 @@ export const Header = () => {
 
     return (
         <div className="header-wraper">
-            {/* <video src='https://www.gcaleman.clmn.link/milkway.mov' autoPlay loop muted /> */}
+            <video src='https://www.gcaleman.clmn.link/my-cv/milkway.mov' autoPlay loop muted />
             <Container>
                 <Row>
                     <Col md={1}></Col>
