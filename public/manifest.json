@@ -2,7 +2,11 @@
   "short_name": "My Web Portfolio",
   "name": "Guilherme Web Portfolio",
   "icons": [
-
+    {
+      "src": "logo-dev.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
   ],
   "start_url": ".",
   "display": "standalone",
