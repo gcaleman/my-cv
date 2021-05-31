@@ -28,6 +28,7 @@
 .about-container .col-border>h1 {
     margin-left: 35px;
     text-align: left;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .about-container .col-border>p>span {

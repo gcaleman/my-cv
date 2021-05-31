@@ -39,7 +39,7 @@
     color: #ccc;
 }
 
-.education-timeline li:before{
+.education-timeline li:before {
     content: '';
     background: #fff;
     display: inline-block;
@@ -50,6 +50,10 @@
     width: 20px;
     height: 20px;
     z-index: 1;
+}
+
+.col-border h1 {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* .education-container .col-border {
