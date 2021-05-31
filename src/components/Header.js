@@ -11,7 +11,7 @@ export const Header = () => {
     }
 
     return (
-        <div className="header-wraper">
+        <div className="header-wraper" id="header">
             <video src='https://gcaleman.github.io/my-cv/milkway.mov' autoPlay loop muted />
             <Container>
                 <Row>
