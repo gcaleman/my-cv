@@ -33,7 +33,7 @@ export const Header = () => {
                             strings={["Welcome to my Web Portfolio!", "My name is Guilherme, " +
                                 " I'm a Science in Computing graduate, experienced in building Java and React.js applications."
                                 , " Scroll down if you wanna know more about me."]}
-                            typeSpeed={75}
+                            typeSpeed={85}
                             fadeOut
                             loop
                         />
