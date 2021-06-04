@@ -21,7 +21,7 @@ export const Header = () => {
                         <h4>Frontend </h4> <h4>&</h4> <h4>Java Developer</h4>
                         <Typed
                             className="typed-text"
-                            strings={["React", "Angular", "HTML", "CSS", "JavaScript", "Java", "Spring Boot", "MySQL"]}
+                            strings={["React.js", "RxJS", "HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Spring Boot", "MySQL", "Git"]}
                             typeSpeed={45}
                             backSpeed={50}
                             loop

@@ -37,6 +37,8 @@ export const Projects = () => {
                                 - Frontend: AWS Amplify
                                 <br></br>
                                 - Backend: AWS Elastic Beanstalk
+                                <br></br>
+                                - CI: GitHub Actions
                             </p>
                         <a href="https://github.com/gcaleman/covid-europe-dashboard"><i className="fab fa-github" />Github repository</a>
                     </Col>
