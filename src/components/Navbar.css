@@ -21,6 +21,10 @@
     height: 80px;
 }
 
+.navbar-container ul {
+    padding-inline-start: 0px;
+}
+
 .navbar-logo {
     color: #fff;
     justify-self: start;
